@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<!---      
+            UNDEAD MAGIKARP THEMES
+                            ii | infinity
+                    http://undeadmagikarp.tumblr.com/
+                   
+General theme/page rules apply. Thank you!
+ 
+--->
+
+<head>
+
+    <title>{Title}</title>
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <link rel="shorcut icon" href="{Favicon}">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: #e5e5e5; /**BACKGROUND COLOUR**/
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        color: black; /**FONT COLOUR**/
+    }        
+    
+    a {
+        cursor: help;
+        text-decoration: none;
+        color: #bcbcbc; /**LINK COLOUR**/
+        padding-bottom: 1px;
+        border-bottom: 1px transparent solid;
+        transition: all .5s ease;
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            -o-transition: all .5s ease;
+    }
+    
+    a:hover {
+        border-bottom: 1px #bcbcbc solid; /**LINK UNDERLINE COLOUR**/
+        color: #464646; /**LINK HOVER COLOUR**/
+    }
+    
+    hr {
+        margin: 20px 0;
+    }
+    
+    i {
+        text-shadow: 2px 0px #464646; /**ITALICS COLOUR**/
+    }
+    
+    b {
+        color: #464646; /**BOLDED TEXT COLOUR**/
+    }
+    
+    #container {
+        position: relative;
+        height: auto;
+        width: 550px;
+        margin: 50px auto 0px auto;
+    }
+    
+    #askbox {
+        position: relative;
+        height: 190px;
+        width: 500px;
+        margin: 0 auto;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom: 2px rgba(188,188,188,0.8) solid; 
+        /**⇑ BOTTOM-BORDER COLOUR OF ASK BOX: For this you must use the RGB of the colour. The 0.8 following is the opacity of the border. It is your option whether to change this or not.**/
+    }
+    
+    .asker {
+        margin-left: 5px;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+    }
+    
+    .asker img {
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .ask-triangle {
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 50px;
+        width: 0;
+    	height: 0;
+    	border-top: 15px solid white; /**TRIANGLE COLOUR (recommended to match question background)**/
+    	border-left: 15px solid transparent;
+    }
+    
+    .question {
+        background-color: white; /**QUESTION BACKGROUND COLOUR**/
+        width: 421px;
+        height: auto;
+        padding: 7px;
+        margin-top: -50px;
+        margin-left: 65px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom: 2px rgba(188,188,188,.8) solid;
+        /**⇑ BOTTOM-BORDER COLOUR OF EVERY QUESTION: For this you must use the RGB of the colour. The 0.8 following is the opacity of the border. It is your option whether to change this or not.**/
+    }
+
+    .respondent {
+        margin-left: 445px;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+    }
+    
+    .respondent img {
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .answer-triangle {
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 435px;
+        width: 0;
+    	height: 0;
+    	border-top: 15px solid white; /**TRIANGLE COLOUR (recommended to match answer background)**/
+    	border-right: 15px solid transparent;
+    }
+    
+    .answer {
+        background-color: white; /**ANSWER BACKGROUND COLOUR**/
+        width: 421px;
+        height: auto;
+        padding: 7px;
+        margin-top: -50px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom: 2px rgba(188,188,188,.8) solid;
+        /**⇑ BOTTOM-BORDER COLOUR OF EVERY ANSWER: For this you must use the RGB of the colour. The 0.8 following is the opacity of the border. It is your option whether to change this or not.**/
+    }
+    
+    .title {
+        margin: 0 auto 10px auto;
+        width: 500px;
+        height: 20px;
+        background-color: black; /**TITLE BACKGROUND COLOUR**/
+        color: white; /**TITLE TEXT COLOUR**/
+        text-align: center;
+        padding: 10px 0px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+    
+    .box {
+        position: relative;
+        height: auto;
+        width: 500px;
+        margin: 10px 25px;
+        min-height: 50px;
+    }
+
+    #bottom {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        bottom: 0;
+        margin-top: 40px;
+    }
+    
+    #links {
+        position: relative;
+        margin-bottom: 20px;
+        height: 20px;
+        width: auto;
+        text-align: center;
+        color: #5e5e5e; /**COLOUR OF | SEPARATING BOTTOM LINKS**/
+    }
+    
+    #links a {
+        text-transform: uppercase;
+        margin: 0 5px;
+        font-weight: bold;
+        padding-bottom: 2px;
+    }
+    
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+
+<!---QUESTION--->
+<div class="box">
+
+    <!---PROFILE PIC OF THE ASKER GOES HERE ⇓ --->
+    <div class="asker">
+        <img src="http://static.tumblr.com/15cf1415952aa26aecdd44dd25c4a110/bkdoxe7/Rz5nqo390/tumblr_static_xmpz2zi7u0gosw4s0osgssks.jpg">
+    </div>
+    
+    <div class="ask-triangle"></div>
+    
+    <!---TYPE THE QUESTION HERE ⇓ --->
+    <div class="question">
+        This is a question. Feel free to type an essay or not an essay. A link would look <a href="http://-kkaepsong.tumblr.com/">like this</a>. Ut id tristique dignissim mattis donec. Turpis facilisi. Eu sodales, vel elit fuga amet, dui cras mi. Eu hendrerit ultrices, id tempor ipsum mi suscipit dictumst. 
+    </div>
+    
+</div>
+<!---QUESTION END--->
+
+
+<!---ANSWER--->
+<div class="box">
+    
+    <!---PROFILE PIC OF RESPONDENT GOES HERE ⇓ --->
+    <div class="respondent">
+        <img src="http://static.tumblr.com/2d8a36ca0936b11b7abdb3720136f4c2/bkdoxe7/gohnqo390/tumblr_static_7v49gcokgls8w88w04k4o4404.jpg">
+    </div>
+    
+    <div class="answer-triangle"></div>
+    
+    <!---TYPE YOUR ANSWER HERE ⇓ --->
+    <div class="answer">
+        And here's my <b>answer</b> to your <i>love</i>. Lorem ipsum dolor sit amet, viverra sociis amet scelerisque accumsan tortor. Nulla vel et. Quis purus lacus aenean auctor, risus vitae mauris. Mauris lectus curabitur sit donec diam.
+    </div>
+
+</div>
+<!---ANSWER END--->
+
+
+<!---LINE BREAK--->
+<hr>
+<!---LINE BREAK END--->
+
+
+<!---TITLE--->
+<div class="title">title</div>
+<!---TITLE END--->
+
+
+<!---QUESTION--->
+<div class="box">
+
+    <!---PROFILE PIC OF THE ASKER GOES HERE ⇓ --->
+    <div class="asker">
+        <img src="http://static.tumblr.com/15cf1415952aa26aecdd44dd25c4a110/bkdoxe7/Rz5nqo390/tumblr_static_xmpz2zi7u0gosw4s0osgssks.jpg">
+    </div>
+    
+    <div class="ask-triangle"></div>
+    
+    <!---TYPE THE QUESTION HERE ⇓ --->
+    <div class="question">
+        Lorem ipsum dolor sit amet, purus quis tempor magnis amet, et mi eu risus ac proin. Lorem egestas ligula elit ipsum justo semper, nam non vitae volutpat, posuere nunc wisi ligula sit eget elementum.
+    </div>
+    
+</div>
+<!---QUESTION END--->
+
+
+<!---ANSWER--->
+<div class="box">
+    
+    <!---PROFILE PIC OF RESPONDENT GOES HERE ⇓ --->
+    <div class="respondent">
+        <img src="http://static.tumblr.com/2d8a36ca0936b11b7abdb3720136f4c2/bkdoxe7/gohnqo390/tumblr_static_7v49gcokgls8w88w04k4o4404.jpg">
+    </div>
+    
+    <div class="answer-triangle"></div>
+    
+    <!---TYPE YOUR ANSWER HERE ⇓ --->
+    <div class="answer">
+        Lorem ipsum dolor sit amet, purus quis tempor magnis amet, et mi eu risus ac proin. Lorem egestas ligula elit ipsum justo semper, nam non vitae volutpat, posuere nunc wisi ligula sit eget elementum.
+    </div>
+    
+</div>
+<!---ANSWER END--->
+
+
+<!---LINE BREAK--->
+<hr>
+<!---LINE BREAK END--->
+
+
+<!---TITLE--->
+<div class="title">mailbox</div>
+<!---TITLE END--->
+
+
+<!---ASK BOX--->
+<div id="askbox">
+    <iframe frameborder="0" border="none" height="100%" id="ask_form" scrolling="no" src="http://www.tumblr.com/ask_form/INSERT YOUR TUMBLR URL HERE" width="100%" ></iframe>
+</div>
+<!---ASK BOX END--->
+    
+
+</div>
+
+<div id="bottom">
+<!---LINKS GO HERE. THERE IS ALMOST NO LIMIT OF LINKS UNTIL YOU OVERFLOW THE CONTAINER. PLEASE DO NOT REMOVE THE CREDIT.--->
+<div id="links">
+    <a href="/">home</a> | 
+    <a href="/">link</a> | 
+    <a href="/archive">archive</a> | 
+    <a href="/dashboard">dashboard</a> | 
+    <a href="http://undeadmagikarp.tumblr.com/">credit</a>
+</div>
+</div>
+
+</body>
+</html>
