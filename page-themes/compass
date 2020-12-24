@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+
+<!---	    
+        UNDEAD MAGIKARP THEMES
+			    i | compass
+		    http://undeadmagikarp.tumblr.com/
+		    
+General theme/page rules apply. Thank you!
+
+--->
+
+<head>
+
+    <title>{Title}</title>
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <link rel="shortcut icon" href="{Favicon}" />
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script src="http://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js"></script>
+<script>
+   (function($){
+       $(document).ready(function(){
+           $("[title]").style_my_tooltips({
+               tip_follows_cursor:true,
+               tip_delay_time:300,
+               tip_fade_speed:300,
+           }
+               );
+       });
+   })(jQuery);
+</script>
+
+<style type="text/css">
+
+/**SCROLL BAR***/
+    ::-webkit-scrollbar { 
+        width: 5px; 
+        height: 5px;
+        background-color: #ffffff;
+    }
+    
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #7f7f7f; 
+        height: 5px;
+        width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track-piece {
+        width: 5px;
+        height: 5px;
+        border: solid #ffffff 2px;
+        background-color: #000000;
+    }
+/**SCROLL BAR END***/
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+	cursor: crosshair;
+        word-wrap: break-word;
+        font-family: courier new;
+        font-size: 12px;
+        color: #7f7f7f;
+        background-color: #fff; /**BACKGROUND COLOUR***/
+    }        
+
+    a {
+        cursor: crosshair;
+    }
+    
+/**TOOLTIP AKA THE BOX YOU GET WHEN YOU HOVER OVER LINKS***/
+    #s-m-t-tooltip {
+        background: #ccc;
+        z-index: 999999;
+        padding: 3px;
+        border: solid 1px #cffeff;
+        color: #fff;
+        margin: 15px;
+        padding: 5px;
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+    
+/**HIGHLIGHT COLOUR***/
+    ::selection {
+        background: #ccc;
+        color: #cffeff;
+    }
+    
+    ::-moz-selection {
+        background: #ccc;
+        color: #cffeff;
+    }
+/**HIGHLIGHT COLOUR END***/
+    
+/**BLOCKQUOTE***/
+    blockquote {
+        border-left: 1px solid #cffeff;
+        padding-left: 20px;
+        margin-left: 20px;
+        line-height: 22px;
+    }
+/**BLOCKQUOTE END***/
+    
+    hr {
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+        background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+        background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+        background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+        margin: 0px 50px;
+    }
+    
+    h1 {
+        color: #000000;
+        font-size: 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    table {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    
+    tr {
+        height: 50%;
+        width: 100%;
+    }
+    
+    td {
+        position: relative;
+        height: 50%;
+        width: 50%;
+    }
+    
+    
+    #nw {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        bottom: 0;
+        right: 0;
+        transition: all 1s ease-in; 
+            -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+            -ms-transition: all 1s ease-in;
+            -o-transition: all 1s ease-in;
+    }
+    
+    #nw:hover {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #ne {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        bottom: 0;
+        left: 0;
+        transition: all 1s ease-in; 
+            -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+            -ms-transition: all 1s ease-in;
+            -o-transition: all 1s ease-in;
+    }
+    
+    #ne:hover {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #sw {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-right: 1px solid black;
+        border-top: 1px solid black;
+        top: 0;
+        right: 0;
+        transition: all 1s ease-in; 
+            -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+            -ms-transition: all 1s ease-in;
+            -o-transition: all 1s ease-in;
+    }
+    
+    #sw:hover {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #se {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        top: 0;
+        left: 0;
+        transition: all 1s ease-in; 
+            -webkit-transition: all 1s ease-in;
+            -moz-transition: all 1s ease-in;
+            -ms-transition: all 1s ease-in;
+            -o-transition: all 1s ease-in;
+    }
+    
+    #se:hover {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity .5s ease-in 0s; 
+            -webkit-transition: opacity .5s ease-in 0s;
+            -moz-transition: opacity .5s ease-in 0s;
+            -ms-transition: opacity .5s ease-in 0s;
+            -o-transition: opacity .5s ease-in 0s;
+    }
+    
+    .container:hover {
+        opacity: 1;
+        transition: opacity 1s ease-in 0.75s; 
+    }
+    
+    .top {
+        position: absolute;
+        top: 0;
+        height: 30%;
+        width: 100%;
+    }
+    
+    .nwbox {
+        position: absolute;
+        bottom: 0;
+        margin-top: 30%;
+        height: 60%;
+        margin: 5%;
+        width: 90%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }    
+            
+    .nwbox p {
+        line-height: 22px;
+        text-align: justify;
+        margin: 0px 5px 15px 5px;
+    }
+    
+/**DESCRIPTION LINKS***/
+    .nwbox a {
+        color: #ccc;
+        padding: 2px;
+        border-bottom: 1px solid #7f7f7f;
+        text-decoration: none;
+        transition: color 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    
+    .nwbox a:hover {
+        color: #7f7f7f;
+        border-bottom: 1px solid #cffeff;
+    }
+/**DESCRIPTION LINKS END***/
+    
+    .nebox {
+        position: absolute;
+        bottom: 0;
+        margin-top: 30%;
+        height: 60%;
+        margin: 5%;
+        width: 90%;
+        overflow: hidden;
+    }
+    
+    .swbox {
+        position: absolute;
+        bottom: 0;
+        margin-top: 30%;
+        height: 60%;
+        margin: 5%;
+        width: 90%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+/**NAVIGATION LINKS***/
+    .swbox a {
+        color: #ccc;
+        font-size: 16px;
+        padding: 5px;
+        border-bottom: 1px solid #7f7f7f;
+        text-decoration: none;
+        transition: color 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+    }
+    
+    .swbox a:hover {
+        color: #7f7f7f;
+        border-bottom: 1px solid #cffeff;
+    }
+    
+    .swbox hr {
+        border: 0;
+        height: 1px;
+        background: #7f7f7f;
+        margin: 5px 75px;
+    }
+/**NAVIGATION LINKS END***/
+    
+    .sebox {
+        position: absolute;
+        bottom: 0;
+        margin-top: 30%;
+        height: 65%;
+        margin: 0% 5% 5% 5%;
+        width: 90%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+/**BLOGROLL***/
+    .sebox a {
+        text-align: justify;
+        text-decoration: none;
+        border-bottom: 1px solid #7f7f7f;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .sebox a:hover {
+        border-bottom: 1px solid #cffeff;
+    }
+    
+    .sebox img {
+        margin: 20px 15px 15px 15px;
+        padding: 5px 5px 2px 5px;
+        border-radius: 0%;
+        transition: border-radius .5s linear 0s; 
+            -webkit-transition: border-radius .5s linear 0s;
+            -moz-transition: border-radius .5s linear 0s;
+            -ms-transition: border-radius .5s linear 0s;
+            -o-transition: border-radius .5s linear 0s;
+        
+    }
+    
+    .sebox img:hover {
+        border-radius: 100%;
+    }
+/**BLOGROLL END***/
+    
+    #bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        z-index: 999;
+
+    }
+    
+    #icons {
+        margin: 10px;      
+        float: left;
+    }
+    
+/**ICONS***/
+    #icons a {
+        color: #ccc;
+        transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+    }
+    
+    #icons a:hover {
+        color: #cffeff;
+    }
+/**ICONS END***/
+    
+</style>
+</head>
+<body>
+<div id="bar"><div id="icons">
+    <a href="http://undeadmagikarp.tumblr.com/" title="credit"><i class="fa fa-compass fa-2x"></i></a>    
+    <a href="/" title="home"><i class="fa fa-home fa-2x"></i></a>
+</div></div>
+
+<table cellpadding="0" cellspacing="0">
+<tr>
+<td>
+    <div id="nw"><div class="container">
+        <!---DESCRIPTION--->
+        <div class="top"><h1>here i am</h1><hr></div>
+        <div class="nwbox">
+            <p>A <a href="http://-kkaepsong.tumblr.com/" title="yehet">journey</a> is a person in itself; <i>no two are alike.</i> And all plans, safeguards, policing, and <b>coercion</b> are <u>fruitless.</u> We find that after <s>years of struggle</s> that we do not take a trip; a trip takes us. .</p>
+            <p>One time my parents went out and I had a friend over. We planned to take a walk so my mother told me, 'lock the door when you leave,' and she told my friend, 'lock the <i>back door</i> when you leave,' and we were like '<b>we got this.</b>' But you know how some garages have a sensor? If it senses a person or thing entering or exiting as the garage is closing, it will open as to avoid crushing the thing.</p>
+            <blockquote>So I thought, hey lets lock the door from the inside, then close the garage, but jump over the sensor so we will be outside and the garage door will be closed and the door will be locked and it will be <u>perfect</u>.</blockquote>
+            <p>So we did that, and the two of us were outside and it dawned on me that although everything was locked, I failed to realize that I needed a key to get in the house. So two girls were outside and locked out and we were like 12 and we were panicking but then my friend realized she forgot to lock the back door so we got back in and that's the story of the time I screwed up but so did my friend and that fixed it all.</p>
+        </div>
+    </div></div>
+</td>
+<td>
+    <div id="ne"><div class="container">
+        <!---ASKBOX--->
+        <div class="top"><h1>mailbox</h1><hr></div>
+        <div class="nebox"><iframe frameborder="0" border="none" height="100%" id="ask_form" scrolling="yes" src="http://www.tumblr.com/ask_form/INSERT YOUR TUMBLR URL HERE" width="100%" ></iframe></div>
+    </div></div>
+</td>
+</tr>
+<tr>
+<td>
+    <div id="sw"><div class="container">
+        <!---TAGS/LINKS/NAVIGATION--->
+        <div class="top"><h1>lost?</h1><hr></div>
+        <div class="swbox">
+            <center>
+	<a href="">would</a> <a href="">you</a> <a href="">look</a> <a href="">at</a> <a href="">that</a>
+            <hr class="sw">
+            <br>
+            <a href="">an</a> <a href="">infinite</a> <a href="">amount</a>     <a href="">of</a> <a href="">journeys</a> <a href="">to</a> <a href="">take</a>
+            <hr class="sw">
+            <br>
+            <a href="">as</a> <a href="">many</a> <a href="">links</a> <a href="">as</a> <a href="">you'd</a> <a href="">like</a>
+            <hr class="sw">
+            <br>
+            <a href="">the</a> <a href="">cabbage</a> <a href="">had</a> <a href="">a</a> <a href="">love</a> <a href="">affair</a>
+            <hr class="sw">
+            </center>
+        </div>
+    </div></div>
+</td>
+<td>
+    <div id="se"><div class="container">
+        <!---BLOGROLL--->
+        <div class="top"><h1>guides</h1><hr></div>
+        <div class="sebox">
+        {block:Following}
+        {block:Followed}
+        <a href="{FollowedURL}" title="{FollowedName}"><img src="{FollowedPortraitURL-64}"></a>
+        {/block:Followed}
+        {/block:Following}
+        </div>
+    </div></div>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
