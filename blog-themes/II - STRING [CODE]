@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html>
+
+
+<!---      
+            UNDEAD MAGIKARP THEMES
+                            II | STRING
+                    http://undeadmagikarp.tumblr.com/
+                   
+General theme/page rules apply. Thank you!
+ 
+--->
+
+
+<head>
+
+    <title>{Title}</title>
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <link rel="shorcut icon" href="{Favicon}">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Questrial|Merriweather:300|Lato:300|Libre+Baskerville' rel='stylesheet' type='text/css'>
+    
+    <meta name="image:Background" content="" />
+    
+    <meta name="color:Background" color="#fff" />
+    <meta name="color:Headings" content="#000" />
+    <meta name="color:Body" content="#000" />    
+    <meta name="color:Description" content="#000" />
+
+    <meta name="color:Post Borders" color="#eee" />
+    <meta name="color:Post Borders Hover" color="#222" />
+    
+    <meta name="color:Post Column Background" color="" />
+    <meta name="color:Post Column Borders" content="" />
+    <meta name="color:Post Column Borders Hover" content="" />
+    
+    <meta name="color:Link" color="#000000" />
+    <meta name="color:Link Hover" color="#00ccb6" />
+    <meta name="color:Link Underline" content="#00ccb6" />
+    <meta name="color:Link Underline Hover" content="#000" />
+    <meta name="color:Link Strikethrough" content="#fff" />
+    
+    <meta name="color:Sidebar Lines" content="#000" />    
+    <meta name="color:Sidebar Row Separators" content="#898989" /> 
+    <meta name="color:Sidebar Link Text" content="#eee" /> 
+    <meta name="color:Sidebar Link Slide" content="#000" /> 
+    
+    <meta name="color:Tooltip Text" content="#00ffe4" />
+    <meta name="color:Tooltip Border" content="#00ffe4" />
+    <meta name="color:Tooltip Background" content="#666" />
+    
+    <meta name="color:Blockquote Main Border" content="#00ccb6" />
+    <meta name="color:Blockquote Background" content="#eee" />
+    <meta name="color:Blockquote Borders" content="#ccc" />
+    
+    <meta name="color:Caption Background" color="#f7f7f7" />
+    <meta name="color:Caption Borders" content="#eee" />
+    
+    <meta name="color:Bullet Dash" content="#000" />
+    <meta name="color:Post Icons" content="#00ccb6" />
+    <meta name="color:Chat Label" content="#888" />
+    <meta name="color:Scrollbar" content="#444" />
+    
+    <meta name="select:Body Font" content="'Lato', sans-serif" title="Lato" />
+    <meta name="select:Body Font" content="'Questrial', sans-serif" title="Questrial" />
+    <meta name="select:Body Font" content="'Merriweather', serif" title="Merriweather" />
+    <meta name="select:Body Font" content="'Libre Baskerville', serif" title="Libre Baskerville" />
+    
+    <meta name="select:Heading Font" content="'Merriweather', serif" title="Merriweather" />    
+    <meta name="select:Heading Font" content="'Lato', sans-serif" title="Lato" />
+    <meta name="select:Heading Font" content="'Questrial', sans-serif" title="Questrial" />
+    <meta name="select:Heading Font" content="'Libre Baskerville', serif" title="Libre Baskerville" />
+    
+    <meta name="select:List Style" content="upper-roman" title="Uppercase Roman Numerals" />
+    <meta name="select:List Style" content="lower-roman" title="Lowercase Roman Numberals" />
+    <meta name="select:List Style" content="hiragana" title="Hiragana" />
+    <meta name="select:List Style" content="hiragana-iroha" title="Hiragana-iroha" />
+    <meta name="select:List Style" content="katakana" title="Katakana" />
+    <meta name="select:List Style" content="lower-latin" title="Lowercase Letters" />
+    <meta name="select:List Style" content="upper-latin" title="Upercase Letters" />
+    <meta name="select:List Style" content="decimal" title="Default Numbers" />
+    
+    <meta name="select:Bullet Style" content="disc" title="Disc" />
+    <meta name="select:Bullet Style" content="circle" title="Circle" />
+    <meta name="select:Bullet Style" content="square" title="Square" />
+    
+    <meta name="if:250px Posts" content="1" />
+    <meta name="if:400px Posts" content="0" />
+    <meta name="if:500px Posts" content="0" />
+    
+    <meta name="if:Hide Captions" content="1" />
+    <meta name="if:Blockquote Background" content="1" />
+    <meta name="if:Play Count" content="0" />
+    <meta name="if:Bold Questions" content="0" />
+    <meta name="if:Like and Reblog Buttons" content="1" />
+    <meta name="if:Source" content="1" />
+    <meta name="if:Infinite Scroll" content="0" />
+    
+    <meta name="text:Scroll to Top Button" content="http://33.media.tumblr.com/dbefe0ab3117ef8b9d2d7a355f5220ab/tumblr_inline_mj3yr6ESiY1qz4rgp.png" />
+    <meta name="text:Link 1" content="link 1" />
+    <meta name="text:Link 1 URL" content="/" />
+    <meta name="text:Link 2" content="link 2" />
+    <meta name="text:Link 2 URL" content="/" />
+    <meta name="text:Link 3" content="link 3" />
+    <meta name="text:Link 3 URL" content="/" />  
+    
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script src="http://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js"></script>
+<script>
+   (function($){
+       $(document).ready(function(){
+           $("[title]").style_my_tooltips({
+               tip_follows_cursor:true,
+               tip_delay_time:300,
+               tip_fade_speed:300,
+           }
+               );
+       });
+   })(jQuery);
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	
+	//Check to see if the window is top if not then display button
+	$('#container').scroll(function(){
+		if ($(this).scrollTop() > 100) {
+			$('.scrolltotop').fadeIn();
+		} else {
+			$('.scrolltotop').fadeOut();
+		}
+	});
+	
+	//Click event to scroll to top
+	$('.scrolltotop').click(function(){
+		$('html, #container').animate({scrollTop : 0},800);
+		return false;
+	});
+	
+});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#linkbox").show();
+  $("#description").hide();
+  $("#blogtitle").click(function(){ // For demo's sake we attach the crossFade to a click event.
+    $("#linkbox").fadeToggle(500);
+    $("#description").fadeToggle(500);
+  });
+});
+</script>
+
+{block:IfInfiniteScroll}
+<script type="text/javascript" src="http://codysherman.com/tools/infinite-scrolling/code"></script>
+{/block:IfInfiniteScroll}
+
+<style type="text/css">
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: {color:Background};
+        background-image:url('{image:Background Image}');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: {select:Body Font};
+    }        
+    
+    iframe#tumblr_controls { 
+        white-space:nowrap; -webkit-filter: 
+        invert(100%); 
+            -moz-filter: invert(100%); 
+            -o-filter: invert(100%); 
+            -ms-filter: invert(100%); 
+            filter: invert(100%); 
+        opacity:1;
+    }
+    
+    ol {
+        list-style-type: {select:List Style};
+    }
+    
+    ul {
+        list-style:none;
+    }
+
+    ul li {
+        position:relative;
+    }
+
+    ul li:before {
+        position: absolute;
+        content:'';
+        left: 0px;
+        top: 9px;
+        width: 25px;
+        height:1px;
+        margin-left: -35px;
+        background-color: {color:Bullet Dash};
+    }
+    
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background-color: {color:Background};
+    }
+   
+   
+    ::-webkit-scrollbar-thumb {
+        background-color: {color:Scrollbar};
+        height: 5px;
+        width: 5px;
+    }
+   
+    ::-webkit-scrollbar-track-piece {
+        width: 5px;
+        height: 5px;
+        border: solid {color:Background} 2px;
+        background-color: {color:Scrollbar};
+    }
+
+    #s-m-t-tooltip {
+        background: {color:Tooltip Background};
+        z-index: 9999999;
+        padding: 3px;
+        border: solid 1px {color:Tooltip Border};
+        color: {color:Tooltip Text};
+        margin: 15px;
+        padding: 5px;
+        font-size: 9px;
+        font-family: {select:Body Font};
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    #container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }    
+    
+    #column {
+        position: absolute;
+        width: {block:if500pxposts}550px{/block:if500pxposts}{block:if400pxposts}450px{/block:if400pxposts}{block:if250pxposts}300px{/block:if250pxposts};
+        height: auto;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50px;
+        padding-bottom: 50px;
+        border-left: 2px solid {color:Post Column Borders};
+        border-right: 2px solid {color:Post Column Borders};
+        background-color: {color:Post Column Background};
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    #column:hover {
+        border-left: 2px solid {color:Post Column Borders Hover};
+        border-right: 2px solid {color:Post Column Borders Hover};
+    }
+
+    .posts {
+        margin: 100px 25px 50px 25px;
+        width: {block:if500pxposts}500px{/block:if500pxposts}{block:if400pxposts}400px{/block:if400pxposts}{block:if250pxposts}250px{/block:if250pxposts};
+    }
+    
+    pre {
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+    }
+
+    blockquote {
+        {block:ifBlockquoteBackground}
+        background-color: {color:Blockquote Background};
+        border: 1px solid {color:Blockquote Borders};
+        {/block:ifBlockquoteBackground}
+        border-left: 2px solid {color:Blockquote Main Border};
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: {color:Link};
+        border-bottom: 1px solid {color:Link Underline};
+        padding-bottom: 2px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    a:hover {
+        border-bottom: 1px solid {color:Link Underline Hover};
+        color: {color:Link Hover};
+    }  
+    
+    .cap {
+        background-color: {color:Caption Background};
+        border: 1px solid {color:Caption Borders};
+        padding: 0 15px;
+        font-family: {select:Body Font};
+        font-size: 16px;
+        color: {color:Body};
+        width: {block:if500pxposts}468px{/block:if500pxposts}{block:if400pxposts}368px{/block:if400pxposts}{block:if250pxposts}218px{/block:if250pxposts};
+    }
+    
+    .all {
+        position: relative;
+        width: {block:if500pxposts}500px{/block:if500pxposts}{block:if400pxposts}400px{/block:if400pxposts}{block:if250pxposts}250px{/block:if250pxposts};
+        height: auto;
+        margin-left: -25px;
+        padding: 0 25px;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .north {
+        position: absolute;
+        height: 2px;
+        width: calc(100% - 100px);
+        background-color: {color:Post Borders};
+        margin-top: -25px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .north {
+        width: calc(100% + 110px);
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .posts:hover .south {
+        width: 100%;
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .south {
+        position: absolute;
+        height: 2px;
+        width: calc(100% - 100px);
+        background-color: {color:Post Borders};
+        margin-top: 25px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .west {
+        position: absolute;
+        background-color: {color:Post Borders};
+        height: calc(100% - 50px);
+        width: 2px;
+        margin-left: -27px;
+        margin-top: 25px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .west, .posts:hover .east {
+        height: calc(100% + 52px);
+        margin-top: -25px;
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .east {
+        position: absolute;
+        background-color: {color:Post Borders};
+        height: calc(100% - 50px);
+        right: 0;
+        width: 2px;
+        margin-right: -2px;
+        margin-top: 25px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+
+    .ws {
+        position: absolute;
+        top: 50%;
+        height: 0px;
+        width: 2px;
+        background-color: {color:Post Borders};
+        margin-left: -27px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .ws {
+        height: calc(50% + 27px);
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .wn {
+        position: absolute;
+        top: 50%;
+        height: 0;
+        width: 2px;
+        background-color: {color:Post Borders};
+        margin-left: -27px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .wn {
+        top: -25px;
+        height: calc(50% + 27px);
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .es {
+        position: absolute;
+        top: 50%;
+        height: 0px;
+        width: 2px;
+        background-color: {color:Post Borders};
+        right: 0;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .es {
+        height: calc(50% + 27px);
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .en {
+        position: absolute;
+        top: 50%;
+        height: 0;
+        right: 0;
+        width: 2px;
+        background-color: {color:Post Borders};
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .en {
+        top: -25px;
+        height: calc(50% + 27px);
+        background-color: {color:Post Borders Hover};
+    }
+
+    .txt, .txt blockquote p::first-letter, .txt blockquote p:first-letter {
+        font-family: {select:Body Font};
+        color: {color:Body};
+        line-height: 150%;
+        font-size: 16px;
+    }
+    
+    .txt p::first-letter, .txt p:first-letter {
+        font-size: 20px;
+        font-family: {select:Heading Font};
+        text-transform: uppercase;
+        color: {color:Headings};
+    }
+    
+    .ttle {
+        font-size: 20px;
+        font-family: {select:Heading Font};
+        color: {color:Headings};
+        text-transform: capitalize;
+    }
+    
+    .ttle a {
+        text-decoration: none;
+        color: {color:Link};
+        border-bottom: 1px solid {color:Link Underline};
+        padding-bottom: 2px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .ttle a:hover {
+        border-bottom: 1px solid {color:Link Underline Hover};
+        color: {color:Link Hover};
+    }  
+    
+    .icon {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .icon i {
+        color: {color:Post Icons};
+        padding-right: 5px;
+    }
+    
+    .se {
+        position: absolute;
+        height: 2px;
+        width: calc(70% - 50px);
+        background-color: {color:Post Borders};
+        margin-top: 25px;
+        left: 30%;
+        bottom: -27px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .se {
+        width: 70%;
+        background-color: {color:Post Borders Hover};
+    }
+
+    .slant {
+        position: absolute;
+        margin-top: 25px;
+        left: calc(30% - 18px);
+        bottom: -33px;
+		width: 15px;
+		height: 15px;
+		background: transparent;
+		border-left: 3px solid {color:Post Borders};
+		transform: skew(45deg) rotate(-45deg);
+		transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .slant {
+        border-left-color: {color:Post Borders Hover};
+    }
+    
+    .slant2 {
+        position: absolute;
+        margin-top: 25px;
+        left: calc(30% - 18px);
+        bottom: -33px;
+		width: 15px;
+		height: 15px;
+		background: transparent;
+		border-left: 2px solid {color:Post Borders};
+		transform: skew(45deg) rotate(-45deg);
+		transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .slant2 {
+        border-left-color: {color:Post Borders Hover};
+    }
+
+    .sh {
+        position: absolute;
+        width: 2px;
+        height: 11px;
+        background-color: {color:Post Borders};
+        margin-top: 25px;
+        bottom: -36px;
+        left: 30%;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .sh {
+        background-color: {color:Post Borders Hover};
+    }
+    
+    .sw {
+        position: absolute;
+        height: 2px;
+        width: calc(30% - 50px - 19px);
+        background-color: {color:Post Borders};
+        margin-top: 25px;
+        left: 50px;
+        bottom: -27px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .sw {
+        left: 0;
+        width: calc(30% - 18px);
+        background-color: {color:Post Borders Hover};
+    }
+
+    .ref {
+        position: absolute;
+        right: 25px;
+        top: calc(100% + 30px);
+        height: auto;
+        width: auto;
+        max-width: calc(70% - 30px);
+        text-align: right;
+        text-transform: capitalize;
+        word-break: break-all;
+    }
+
+    .play {
+        width: 20px;
+        height: 30px;
+        overflow: hidden;
+        position: relative;
+        z-index: 99;
+        margin: 5px 14px 3px 6px;
+    }
+   
+    .playbox {
+        background-color: #000;
+        position: absolute;
+        z-index: 99;
+        border-radius: 100px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+        opacity: .75;
+        margin: 6px 5px;
+    }
+
+    .cover {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .playinfo {
+        width: calc(100% - 50px);
+        height: auto;
+        margin: 5px auto;
+        font-family: {select:Body Font};
+        color: {color:Body};
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .chatter {
+        font-size: 14px;
+        font-family: {select:Body Font};
+        color: {color:Chat Label};
+        text-transform: capitalize;
+    }
+    
+    .postinfo {
+        width: 130px;
+        opacity: 0;
+        height: 100px;
+        font-family: {select:Body Font};
+        font-size: 13px;
+        line-height: 150%;
+        right: -150px;
+        top: -23px;
+        position: absolute;
+        text-transform: uppercase;
+        padding: 0 10px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .postinfo {
+        opacity: 1;
+    }
+    
+    .tags {
+        word-spacing: 5px;
+    }
+    
+    .tags a {
+        position: relative;
+        color: {color:Link};
+        text-decoration: none;
+        transition: all 0.5s ease;
+        border-bottom: none;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .tags a:hover {
+        color: {color:Link Hover};
+    }
+    
+    .tags a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 9px;
+        left: 0;
+        background-color: {color:Link Strikethrough};
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .tags a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+    
+    .buttons {
+        height: 20px;
+        width: 50px;
+        position: absolute;
+        right: -170px;
+        top: -37px;
+        background-color: transparent;
+        padding: 5px;
+        opacity: 0;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .posts:hover .buttons {
+        opacity: 1;
+        transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -ms-transition: all 1s ease;
+            -o-transition: all 1s ease;
+    }
+    
+    .buttons a {
+        border-bottom: none;
+    }
+    
+    .button {
+        float: left;
+        padding-right: 5px;
+    }
+    
+    .nonlink a {
+        border-bottom: none;
+    }
+    
+    #sidebar {
+        position: fixed;
+        z-index: 10;
+        width: 200px;
+        height: 252px;
+        bottom: 50px;
+        left: 50px;
+    }
+    
+    #sbv {
+        width: 2px;
+        background-color: {color:Sidebar Lines};
+        height: 100%;
+        position: absolute;
+        left: 35px;
+    }
+    
+    #sbh {
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        background-color: {color:Sidebar Lines};
+        top: 35px;
+    }
+
+    .row {
+        height: 35px;
+        width: 100%;
+        border-bottom: 1px solid {color:Sidebar Row Separators};
+    }
+    
+    .numbers {
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        font-family: {select:Heading Font};
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    .row a {
+        border-bottom: none;
+        color: {color:Sidebar Link Text};
+    }
+    
+    .center {
+        vertical-align: middle;
+        line-height: 35px;
+        display: inline-block;
+        color: {color:Blog title};
+    }
+    
+    .links {
+        width: calc(100% - 44px); 
+        padding-left: 7px;
+        font-family: {select:Body Font};
+        font-size: 16px;
+        text-transform: uppercase;
+        height: 35px;
+        margin-top: -35px;
+        margin-left: 37px;
+        background-image: linear-gradient(to right, {color:Sidebar Link Slide}, {color:Sidebar Link Slide} 50%, transparent 50%, transparent);
+        background-position: 100% 0;
+        background-size: 200% 100%;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    .row:hover .links, .row2:hover .links {
+        background-position: 0 0;
+    }
+    
+    #description {
+        position: absolute;
+        top: 37px;
+        width: 160px;
+        display: none;
+        height: 215px;
+        padding: 5px 5px 5px 42px;
+        overflow-x: hidden;
+        overflow-y: auto;
+		text-align: justify;
+        font-family: {select:Body Font};
+        color: {color:Description};
+        font-size: 16px;
+    }
+    
+    #linkbox {
+        position: absolute;
+        top: 37px;
+        width: 200px;
+        height: 215px;
+    }
+
+    #blogtitle {
+        left: 42px;
+        height: 37px;
+        position: absolute;
+        width: auto;
+        font-family: {select:Heading Font};
+        color: {color:Blog title};
+        font-size: 30px;
+        text-transform: uppercase;
+        white-space: break-word;
+    }
+
+    #blogtitle:hover {
+        cursor: help;
+    }
+    
+    #pagination {
+        position: absolute;
+        bottom: 0px;
+        height: 50px;
+        width: 100%;
+    }
+
+    #pagbox {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: {select:Heading Font};
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
+        word-spacing: 10px;
+    }
+    
+    #pagbox a {
+        position: relative;
+        color: {color:Link};
+        text-decoration: none;
+        border: none;
+    }
+
+    #pagbox a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      top: 0;
+      left: 0;
+      background-color: {color:Link Hover};
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+
+    #pagbox a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+    
+    #pagbox a:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: {color:Link Hover};
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    
+    #pagbox a:hover:after {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+    
+    .current_page {
+        color: {color:Link Hover};
+    }
+    
+    #c {
+            position: fixed;
+            bottom: 10px;
+            right: 25px;
+            width: auto;
+            height: 10px;
+            font-size: 10px;
+            font-family: {select:Body Font};
+            text-transform: uppercase;
+        }
+        
+    #c a {
+        border: none;
+    }
+    
+    .scrolltotop{
+    	width:35px; 
+    	height:35px;
+    	text-decoration: none;
+    	position:absolute;
+    	top: 0px;
+    	left: 0;
+    	display: none;
+    	z-index: 1000;
+    	border: none;
+    	transition: none;
+    }
+    
+    .scrolltotop img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .scrolltotop:hover{
+    	text-decoration:none;
+    	border: none;
+    }
+    
+    #notebox {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: {color:Caption Background};
+        border: 1px solid {color:Caption Borders};
+    }
+    
+    #notebox img.avatar {
+        width: 10px;
+        height: 10px;
+        float: left;
+    }
+    
+    ol.notes {
+        padding: 5px;               
+        word-wrap: break-word;
+        list-style-type: none;
+        font-size: 11px;
+        font-family: {select:Body Font};
+        text-decoration: none; 
+    }
+    
+    #notebox a {
+        padding-bottom: 1px;
+    }
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+
+<div id="sidebar">
+    <a href="#" class="scrolltotop"><img src="{text:Scroll to Top Button}"></a>
+    <div id="blogtitle">{Title}</div>
+    
+    <div id="linkbox">
+        <div class="row">
+            <div class="numbers"><span class="center">I</span></div>
+            <a href="/"><div class="links"><span class="center">home</span></div></a>
+        </div>
+        <div class="row">
+            <div class="numbers"><span class="center">II</span></div>
+            <a href="/ask"><div class="links"><span class="center">message</span></div></a>
+        </div>
+        <div class="row">
+            <div class="numbers"><span class="center">III</span></div>
+            <a href="/archive"><div class="links"><span class="center">archive</span></div></a>
+        </div>
+        <div class="row">
+            <div class="numbers"><span class="center">IV</span></div>
+            <a href="{text:link 1 url}"><div class="links"><span class="center">{text:link 1}</span></div></a>
+        </div>
+        <div class="row">
+            <div class="numbers"><span class="center">V</span></div>
+            <a href="{text:link 2 url}"><div class="links"><span class="center">{text:link 2}</span></div></a>
+        </div>
+        <div class="row" style="border-bottom:none;">
+            <div class="numbers"><span class="center">VI</span></div>
+            <a href="{text:link 3 url}"><div class="links"><span class="center">{text:link 3}</span></div></a>
+        </div>
+    </div>
+    
+    <div id="description">{Description}</div>
+
+    <div id="sbh"></div>
+    <div id="sbv"></div>
+    
+</div>
+
+<div id="column">
+
+<div class="autopagerize_page_element">
+{block:Posts}
+
+<div class="posts">
+
+{block:Photo}
+<div class="all">
+<div class="north"></div>
+<div class="west"></div>
+<div class="east"></div>
+{LinkOpenTag}
+<div class="nonlink">
+{block:if500pxposts}<img src="{PhotoURL-500}" />{/block:if500pxposts}
+{block:if400pxposts}<img src="{PhotoURL-400}" />{/block:if400pxposts}
+{block:if250pxposts}<img src="{PhotoURL-250}" />{/block:if250pxposts}
+</div>
+{LinkCloseTag}
+{block:ifnotHideCaptions}{block:Caption}<div class="cap">{Caption}</div>{/block:Caption}{/block:ifnotHideCaptions}
+<div class="south"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Photo}
+
+{block:Photoset}
+<div class="all">
+<div class="north"></div>
+<div class="west"></div>
+<div class="east"></div>
+<div class="nonlink">
+{block:if500pxposts}{Photoset-500}{/block:if500pxposts}
+{block:if400pxposts}{Photoset-400}{/block:if400pxposts}
+{block:if250pxposts}{Photoset-250}{/block:if250pxposts}
+</div>
+{block:ifnotHideCaptions}{block:Caption}<div class="cap" style="margin-top:4px;">{Caption}</div>{/block:Caption}{/block:ifnotHideCaptions}
+<div class="south"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Photoset}
+
+{block:Text}
+<div class="all">
+<div class="north"></div>
+<div class="wn"></div>
+<div class="ws"></div>
+<div class="en"></div>
+<div class="es"></div>
+{block:Title}<span class="ttle">{Title}</span>{/block:Title}
+<span class="txt">{Body}</span>
+<div class="south" style="bottom:-27px;"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Text}
+
+{block:Quote}
+<div class="all">
+<div class="north"></div>
+<div class="wn"></div>
+<div class="ws"></div>
+<div class="en"></div>
+<div class="es"></div>
+<span class="icon"><i class="fa fa-quote-left fa-lg"></i></span><span class="ttle" style="font-size:18px;">{Quote}</span>
+<span class="ref">{block:Source}- {Source}{/block:Source}</span>
+<div class="sw"></div>
+<div class="slant"></div>
+<div class="sh"></div>
+<div class="se"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Quote}
+
+{block:Link}
+<div class="all">
+<div class="north"></div>
+<div class="wn"></div>
+<div class="ws"></div>
+<div class="en"></div>
+<div class="es"></div>
+{block:Description}<div class="cap" style="padding:15px;">{/block:Description}<span class="icon"><i class="fa fa-link fa-lg"></i></span><span class="ttle"><a href="{URL}">{Name}</a></span>{block:Description}</div>{/block:Description}
+{block:Description}<span class="txt">{Description}</span>{/block:Description}
+<div class="south" style="bottom:-27px;"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Link}
+
+{block:Audio}
+<div class="all">
+<div class="north"></div>
+<div class="wn"></div>
+<div class="ws"></div>
+<div class="en"></div>
+<div class="es"></div>
+<div class="cover"><div class="playbox"><div class="play">{block:AudioPlayer}{AudioPlayerBlack}{/block:AudioPlayer}</div></div>
+{block:AlbumArt}
+<img src="{AlbumArtURL}" class="cover">
+{/block:AlbumArt}</div>
+<div class="playinfo">
+        <p><b>Track:</b> {block:TrackName}{TrackName}{/block:TrackName}</p>
+        <p><b>Artist:</b> {block:Artist}{Artist}{/block:Artist}</p>
+        <p><b>Album:</b> {block:Album}{Album}{/block:Album}</p>
+        {block:IfPlayCount}<p><b>Play Count:</b> {PlayCount}</p>{/block:IfPlayCount}
+</div>
+{block:Caption}<div class="cap">{Caption}</div>{/block:Caption}
+<div class="south" style="bottom:-27px;"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Audio}
+
+{block:Video}
+<div class="all">
+<div class="north"></div>
+<div class="west"></div>
+<div class="east"></div>
+{block:if500pxposts}{Video-500}{/block:if500pxposts}
+{block:if400pxposts}{Video-400}{/block:if400pxposts}
+{block:if250pxposts}{Video-250}{/block:if250pxposts}
+{block:Caption}<div class="cap">{Caption}</div>{/block:Caption}
+<div class="south"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Video}
+
+{block:Chat}
+<div class="all">
+<div class="north"></div>
+<div class="wn"></div>
+<div class="ws"></div>
+<div class="en"></div>
+<div class="es"></div>
+{block:Title}<div class="ttle">{Title}</div>{/block:Title}
+{block:Lines}
+<p>{block:Label}<div class="chatter">{Label}</div>{/block:Label}
+<div class="txt" style="margin-left:25px;">{Line}</div></p>
+{/block:Lines}
+<div class="south" style="bottom:-27px;"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+</div>
+{/block:Chat}
+
+{block:Answer}
+<div class="all">
+<div class="north"></div>
+<div class="wn"></div>
+<div class="ws"></div>
+<div class="en"></div>
+<div class="es"></div>
+<div class="all">
+<span class="txt">{block:ifBoldQuestions}<b>{/block:ifBoldQuestions}{Question}{block:ifBoldQuestions}</b>{/block:ifBoldQuestions}</span>
+<span class="ref">- {Asker}</span>
+<div class="sw" style="height:1px;bottom:-26px;"></div>
+<div class="slant2"></div>
+<div class="sh" style="width:1px;"></div>
+<div class="se" style="height:1px;bottom:-26px;"></div>
+</div>
+<div class="txt" style="margin-top:60px;">{Answer}</div>
+<div class="south" style="bottom:-27px;"></div>
+{block:ifLikeandReblogButtons}<div class="buttons">
+    <span class="button">{ReblogButton color="black" size="15"}</span>
+    <span class="button">{LikeButton color="black" size="15"}</span>
+</div>{/block:ifLikeandReblogButtons}
+<div class="postinfo">
+    <p style="letter-spacing:1px;"><a href="{Permalink}"><b>{TimeAgo}</b></a></p>
+    {block:NoteCount}<p>{NoteCountWithLabel}</p>{/block:NoteCount}
+    {block:HasTags}<b>Tagged:</b> <div class="tags">{block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}</div>{/block:HasTags}
+{block:ifSource}
+    {block:RebloggedFrom}<p>
+    <a href="{ReblogParentURL}" title="{ReblogParentName}">VIA</a> 
+    <a href="{ReblogRootURL}" title="{ReblogRootName}">ORG</a>
+    {/block:RebloggedFrom}</p>
+{/block:ifSource}
+</div>
+    
+</div>
+{/block:Answer}
+{block:PermalinkPage} 
+{block:PostNotes}
+<div id="notebox">{PostNotes}</div>
+{/block:PostNotes}
+{/block:PermalinkPage}
+</div>
+
+{block:ContentSource}
+<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
+width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
+{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
+ 
+<!--{block:NoRebloggedFrom}{block:RebloggedFrom}{ReblogParentName}{/block:RebloggedFrom}{/block:NoRebloggedFrom}-->
+
+{/block:Posts}
+
+</div>
+
+{block:IfNotInfiniteScroll}
+<div id="pagination">
+    
+            {block:Pagination}
+    
+    <div id="pagbox">
+            {block:JumpPagination length="5"}{block:CurrentPage}
+                    <span class="current_page">{PageNumber}</span>
+                {/block:CurrentPage}{block:JumpPage}
+                    <a class="jump_page" href="{URL}">{PageNumber}</a>
+                {/block:JumpPage}{/block:JumpPagination}
+            
+   </div>         
+            {/block:Pagination}
+    
+</div>
+{/block:IfNotInfiniteScroll}
+
+</div>
+
+<!--PLEASE DO NOT DELETE--><div id="c"><a href="http://undeadmagikarp.tumblr.com/" title="theme credit">UNDEAD MAGIKARP</a></div>  
+
+</div>
+
+</body>
+</html>
