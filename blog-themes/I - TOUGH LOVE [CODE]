@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+
+<!---      
+            UNDEAD MAGIKARP THEMES
+                            I | TOUGH LOVE (AYAHINA)
+                    http://undeadmagikarp.tumblr.com/
+                   
+General theme/page rules apply. Thank you!
+ 
+--->
+
+<head>
+
+    <title>{Title}</title>
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+    <link rel="shorcut icon" href="{Favicon}">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script><script src="http://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js"></script>
+    <script>
+       (function($){
+           $(document).ready(function(){
+               $("[title]").style_my_tooltips({
+                   tip_follows_cursor:true,
+                   tip_delay_time:300,
+                   tip_fade_speed:300,
+               }
+                   );
+           });
+       })(jQuery);
+    </script>
+    
+    <meta name="image:Background Image" content="http://static.tumblr.com/bkdoxe7/cbRnqo3mp/bg8.jpg" />
+    <meta name="image:Left Sidebar Image" content="http://static.tumblr.com/bkdoxe7/Yqfnqo3lq/imageedit_7_2593181222.jpg" />
+    <meta name="image:Right Sidebar Image" content="http://static.tumblr.com/bkdoxe7/UHLnqo3kr/imageedit_5_4896729517.jpg" />
+    
+    <meta name="color:Background" content="#fff" />
+    <meta name="color:Title" content="#fff" />
+    <meta name="color:Title Underline" content="#fcfcfc" />
+    <meta name="color:Description Text" content="#fff" />    
+    <meta name="color:Body Text" content="#737272" />
+    <meta name="color:Bold" content="#444" />    
+    <meta name="color:Italicize" content="#888" />
+    <meta name="color:Underline" content="#eeeeee" />
+    <meta name="color:Blockquote" content="#f6f6f6" />
+    <meta name="color:Link" content="#dfdfdf" />
+    <meta name="color:Link Hover" content="#444" />
+    <meta name="color:Link Background" content="#787878" />
+    <meta name="color:Link Background Hover" content="#a9a8a8" />
+    <meta name="color:Sidebar Icons" content="#444444" />
+    <meta name="color:Sidebar Icons Hover" content="#dfdfdf" />
+    <meta name="color:Accent" content="#fff" />
+    <meta name="color:Scrollbar" content="#fff" />
+    <meta name="color:Highlight Background" content="#000" />
+    <meta name="color:Highlight Text" content="#ccc" />
+    
+    <meta name="if:250px Posts" content="0" />
+    <meta name="if:400px Posts" content="1" />
+    <meta name="if:500px Posts" content="0" />
+    
+    <meta name="if:Infinite Scroll" content="0" />
+    <meta name="if:Play Count" content="0" />
+    <meta name="if:Monochrome Posts" content="0" />
+    <meta name="if:Faded Posts" content="0" />
+    
+    <meta name="if:Sidebar Pagination" content="1" />
+    
+    <meta name="if:LSB Link" content="0" />
+    <meta name="if:LSB Animation" content="0" />
+    <meta name="if:LSB Music" content="0" />   
+    
+    <meta name="if:RSB Link" content="0" />
+    <meta name="if:RSB Animation" content="0" />
+    <meta name="if:RSB Music" content="0" />  
+    
+    <meta name="text:Title" content="Tough Love" />
+    
+    <meta name="text:Sidebar Colour RGB" content="204, 204, 204" />
+    <meta name="text:Post Background RGB" content="255, 255, 255" />
+    <meta name="text:Body Background RGB" content="204, 204, 204" />
+    
+    <meta name="text:LSB Link Title" content="Left Sidebar" />
+    <meta name="text:LSB Link URL" content="" />
+    
+    <meta name="text:RSB Link Title" content="Right Sidebar" />
+    <meta name="text:RSB Link URL" content="" />    
+    
+    <meta name="text:Link 1" content="link 1" />
+    <meta name="text:Link 1 URL" content="" />
+    <meta name="text:Link 2" content="link 2" />
+    <meta name="text:Link 2 URL" content="" />
+    <meta name="text:Link 3" content="link 3" />
+    <meta name="text:Link 3 URL" content="" />  
+    <meta name="text:Link 4" content="link 4" />
+    <meta name="text:Link 4 URL" content="" />
+    <meta name="text:Link 5" content="link 5" />
+    <meta name="text:Link 5 URL" content="" />
+    <meta name="text:Link 6" content="link 6" />
+    <meta name="text:Link 6 URL" content="" />  
+    
+    <meta name="text:Music Player Code" content="" />
+    
+<style type="text/css">
+
+    ::-webkit-scrollbar { 
+        width: 7px; 
+        height: 7px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: {color:Scrollbar}; 
+        height: 7px;
+        width: 7px;
+    }
+    
+    ::-webkit-scrollbar-track-piece {
+        width: 1px;
+        height: 1px;
+        border: 1px solid {color:Scrollbar};
+        background: transparent;
+    }
+
+    #s-m-t-tooltip {
+        background: {color:Link Background};
+        z-index: 999999;
+        padding: 3px;
+        border: dashed 1px {color:Accent};
+        color: {color:Link};
+        margin: 10px;
+        font-size: 9px;
+        text-transform: uppercase;
+        font-family: courier new;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        word-wrap: break-word;
+        background-color: {color:Background};
+        background-image:url('{image:Background Image}');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        cursor: url(http://i.imgur.com/ZOrzC.png), auto;
+        color: {color:Body Text};
+    }        
+    
+    img {
+        max-width: 100%;
+    }
+    
+    ::selection {
+        background: {color:Highlight Background};
+        color: {color:Highlight Text};
+    }
+   
+    ::-moz-selection {
+        background: {color:Highlight};
+        color: {color:Highlight Text};
+    }
+    
+    pre { 
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+    }
+    
+    a {
+        cursor: url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress !important;
+        text-decoration: none;
+        color: {color:Link};
+        transition: all .5s ease-in-out; 
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+    }
+    
+    a:hover {
+        color: {color:Link Hover};
+    }
+    
+    b {
+        color: {color:Bold};
+    }
+    
+    i {
+        color: {color:Italicize};
+    }
+    
+    u {
+        color: {color:Underline};
+    }
+    
+    blockquote {
+        border-left: dashed 1px {color:Blockquote};
+        margin-left: 0px;
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    
+    ul {
+        list-style-type: circle;
+    }
+    
+    #sidebar1 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 300px;
+        background-color: rgba({text:Sidebar Colour RGB}, .5);
+        opacity: .5;
+        transition: all .5s ease-in-out; 
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+    }
+    
+    #sidebar2 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 300px;
+        background-color: rgba({text:Sidebar Colour RGB}, .5);
+        opacity: .5;
+        transition: all .5s ease-in-out; 
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+    }
+    
+    #sidebar1:hover, #sidebar2:hover {
+        opacity: 1;
+        background-color: rgba({text:Sidebar Colour RGB}, .65);
+    }
+    
+    #milk, #cookies {
+        position: relative;
+        margin: 75px auto 40px auto;
+        width: 125px;
+        height: 125px;
+    }
+    
+    #milk img {
+        width: 125px;
+        height: 125px;
+        border-radius: 100%;
+{block:ifLSBLink}
+        transition: all 0.8s ease-in-out;
+            -moz-transition: all 0.8s ease-in-out;
+            -webkit-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+            -ms-transition: all 0.8s ease-in-out;
+{/block:ifLSBLink}
+{block:ifsidebarpagination}{block:PreviousPage}
+        transition: all 0.8s ease-in-out;
+            -moz-transition: all 0.8s ease-in-out;
+            -webkit-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+            -ms-transition: all 0.8s ease-in-out;
+{/block:PreviousPage}{/block:ifsidebarpagination}
+    }
+
+    #milk img:hover { 
+{block:ifLSBLink}
+        transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+{/block:ifLSBLink}
+{block:ifsidebarpagination}{block:PreviousPage}
+        transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+{/block:PreviousPage}{/block:ifsidebarpagination}
+{block:ifLSBAnimation}
+        transition: all 0.6s ease-in-out
+            ;-moz-transition: all 0.6s ease-in-out;
+            -webkit-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out;
+        transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+{/block:ifLSBAnimation}
+    }
+    
+    #cookies img {
+        width: 125px;
+        height: 125px;
+        border-radius: 100%;
+{block:ifRSBLink}
+        transition: all 0.8s ease-in-out;
+            -moz-transition: all 0.8s ease-in-out;
+            -webkit-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+            -ms-transition: all 0.8s ease-in-out;
+{/block:ifRSBLink}
+{block:ifsidebarpagination}{block:NextPage}
+        transition: all 0.8s ease-in-out;
+            -moz-transition: all 0.8s ease-in-out;
+            -webkit-transition: all 0.8s ease-in-out;
+            -o-transition: all 0.8s ease-in-out;
+            -ms-transition: all 0.8s ease-in-out;
+{/block:NextPage}{/block:ifsidebarpagination}
+    }
+    
+    #cookies img:hover {
+{block:ifRSBLink}
+        transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+{/block:ifRSBLink}
+{block:ifsidebarpagination}{block:NextPage}
+        transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+{/block:NextPage}{/block:ifsidebarpagination}
+{block:ifRSBAnimation}
+        transition: all 0.6s ease-in-out
+            ;-moz-transition: all 0.6s ease-in-out;
+            -webkit-transition: all 0.6s ease-in-out;
+            -o-transition: all 0.6s ease-in-out;
+            -ms-transition: all 0.6s ease-in-out;
+        transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+{/block:ifRSBAnimation}
+    }    
+    
+    .title {
+        position: relative;
+        width: auto;
+        height: 30px;
+        font-size: 30px;
+        font-family: courier new;
+        text-transform: uppercase;
+        text-align: center;
+        color: {color:Title};
+    }
+    
+    #sidebar1 hr, #sidebar2 hr {
+        height: 2px;
+        border: 0;
+        background: {color:Title Underline};
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #description {
+        margin: 10px 35px 10px 32px;
+        font-family: consolas;
+        text-transform: uppercase;
+        text-align: ;
+        color: {color:Description Text};
+        padding: 3px;
+        font-size: 13px;
+        line-height: 1.5;
+        width: 230px;
+        height: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    #linkbox {
+        position: relative;
+        margin: 10px 35px;
+        font-family: consolas;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+        width: 230px;
+        height: 250px;
+        overflow: hidden;
+    }
+    
+    #linkbox a {
+        letter-spacing: 5px;
+        transition: all .75s ease-in-out; 
+            -webkit-transition: all .75s ease-in-out;
+            -moz-transition: all .75s ease-in-out;
+            -ms-transition: all .75s ease-in-out;
+            -o-transition: all .75s ease-in-out;
+    }
+    
+    #linkbox a:hover {
+        letter-spacing: 10px;
+    }
+    
+    #linkbox hr {
+        border: 0;
+        border-bottom: 1px dashed {color:Accent};
+        background: transparent;
+        margin: 8px -20px;
+    }
+    
+    #container {
+        position: fixed;
+        height: 100%;
+        padding-top: 50px;
+        left: 300px;
+        right: 300px;
+        width: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
+    .posts {
+        position: relative;
+        margin: 0px auto 100px auto;
+        width: {block:if500pxposts}500px{/block:if500pxposts}{block:if400pxposts}400px{/block:if400pxposts}{block:if250pxposts}250px{/block:if250pxposts};
+        padding: 15px;
+        background-color: rgba({text:Post Background RGB},0.5);
+{block:ifMonochromePosts}
+        -webkit-filter: Grayscale(100%); 
+        transition-duration: 0.8s; 
+            -webkit-transition-duration: 0.8s; 
+            -moz-transition-duration: 0.8s; 
+            -ms-transition-duration: 0.8s;
+            -o-transition-duration: 0.8s;
+{/block:ifMonochromePosts}
+{block:ifFadedPosts}
+    opacity: 0.75;
+    transition-duration: 0.8s; 
+        -webkit-transition-duration: 0.8s; 
+        -moz-transition-duration: 0.8s; 
+        -ms-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+{/block:ifFadedPosts}
+    }
+
+    .posts:hover {
+{block:ifMonochromePosts}
+        -webkit-filter: Grayscale(0%); 
+        transition: all 0.5s ease-out;
+            -webkit-transition: all 0.5s ease-out; 
+            -moz-transition: all 0.5s ease-out; 
+            -ms-transition: all .5s ease-out;
+            -o-transition: all .5s ease-out;
+{/block:ifMonochromePosts}
+{block:ifFadedPosts}
+        opacity: 1;
+        transition: all 0.5s ease-out;
+            -webkit-transition: all 0.5s ease-out; 
+            -moz-transition: all 0.5s ease-out; 
+            -ms-transition: all .5s ease-out;
+            -o-transition: all .5s ease-out;
+{/block:ifFadedPosts}
+    }
+    
+    .postinfo {
+        position: relative;
+        margin-top: 15px;
+        background-color: rgba({text:Body Background RGB}, 0.75);
+        padding: 15px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: consolas;
+        color: {color:Body Text};
+    }
+    
+    .postinfo .notes {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    .postinfo .tags {
+        margin-top: 5px;
+    }
+    
+    .postbg {
+        padding: 15px;
+        background-color: rgba({text:Body Background RGB}, 0.75);
+    }
+    
+    .text {
+        font-family: courier new;
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: {color:Body Text};
+    }    
+        
+    .text a {
+        padding: 1px;
+        background-color: {color:Link Background};
+        color: {color:Link};
+    }
+
+    .text a:hover {
+        color: {color:Link Hover};
+        background-color: {color:Link Background Hover};
+    }
+    
+    .postbg hr {
+        border: 0;
+        border-bottom: 1px dashed {color:Title Underline};
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .ttle {
+        text-align: center;
+        font-family: courier new;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 17px;
+        letter-spacing: 1px;
+        color: {color:Title};
+    }
+    
+    .cover {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px dashed {color:Accent};
+    }
+    
+    .play {
+        width: 20px; 
+        height: 30px; 
+    	overflow: hidden; 
+    	position: relative;
+        z-index: 99;
+        margin: 5px 14px 3px 6px;
+    }
+    
+    .playbox {
+        background-color: #fff;
+        position: absolute;
+        z-index: 99;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        opacity: .75;
+        margin-left: 30px;
+        margin-top: 31px;
+    }
+    
+    .playinfo {
+        position: absolute;
+        top: 30px;
+        left: 130px;
+        padding: 0px 15px;
+        height: 100px;
+        width: {block:if500pxposts}355px{/block:if500pxposts}{block:if400pxposts}255px{/block:if400pxposts}{block:if250pxposts}105px{/block:if250pxposts};
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    .mask {
+        height: 100px;
+        width: 100px
+        position: relative;
+        top: 0;
+        left: 0;
+        border: 1px dashed {color:Accent};
+    }
+    
+    .questionnaire {
+        position: absolute;
+        height: 100px;
+        width: {block:if500pxposts}355px{/block:if500pxposts}{block:if400pxposts}255px{/block:if400pxposts}{block:if250pxposts}105px{/block:if250pxposts};
+        top: 30px;
+        margin-left: 115px;
+        border-top: 1px dashed {color:Accent};
+        border-bottom: 1px dashed {color:Accent};
+    }
+    
+    .sender {
+        position: relative;
+        top: 0;
+        width: {block:if500pxposts}355px{/block:if500pxposts}{block:if400pxposts}255px{/block:if400pxposts}{block:if250pxposts}105px{/block:if250pxposts};
+        height: 15px;
+        font-family: courier new;
+        text-transform: uppercase;
+        font-size: 13px;
+        padding: 5px 0px;
+        border-bottom: 1px dashed {color:Title Underline};
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        color: {color:Title};
+    }
+
+    .mailbox {
+        position: relative;
+        height: 65px;
+        width: {block:if500pxposts}355px{/block:if500pxposts}{block:if400pxposts}255px{/block:if400pxposts}{block:if250pxposts}105px{/block:if250pxposts};
+        padding-right: 5px;
+        font-family: consolas;
+        text-transform: uppercase;
+        font-size: 11px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        letter-spacing: 1px;
+        color: {color:Body Text};
+    }
+    
+    .pncont {
+        margin-top: 15px;
+        background-color: rgba({text:Body Background RGB},0.75);
+        padding: 15px;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: consolas;
+        letter-spacing: 1px;
+        color: {color:Body Text};
+    }
+
+    #music {
+        position: absolute;
+        margin: 52.5px 45px;
+        height: 20px;
+        width: 35px;
+        background-color: rgba(255,255,255, .75);
+        overflow: hidden;
+        z-index: 50;
+        border-radius: 100%;
+    }
+    
+    #music img {
+        margin-left: 10.5px;
+        margin-bottom: -4px;
+        height: 11px;
+        width: 14px;
+        border-radius: 0;
+    }
+    
+    #music:hover #top {
+        margin-top: 0px;
+    }
+    
+    #top {
+        margin-top: -20px;
+        height: 20px;
+        width: 35px;
+        transition: .5s linear; 
+            -webkit-transition: all .5s linear;
+            -moz-transition: all .5s linear;
+            -ms-transition: all .5s linear;
+            -o-transition: all .5s linear;
+    }
+    
+    #billy {
+        margin-left: -20px;
+        margin-top: -4px;
+        height: 20px;
+        width: 35px;
+    }
+
+    #error {
+        position: relative;
+        bottom: 0;
+        height: 90px;
+        width: 100%;
+    }
+    
+    #zero {
+        width: 100%;
+        height: 20px;
+        margin: 20px auto;
+        text-align: center;
+        font-family: courier new;
+        text-height: 20px;
+    }
+    
+    #error a {
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 1px dashed {color:Link Hover};
+        color: {color:Link};
+        padding: 1px;
+        transition: all 0.5s ease;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+    }
+    
+    #error a:hover {
+        color: {color:Link Hover};
+        border-bottom: 1px dashed {color:Link};
+    }
+    
+    .icons i {
+        font-size: 20px;
+        color: {color:Sidebar Icons};
+        transition: all .8s ease-in-out; 
+            -webkit-transition: all .8s ease-in-out;
+            -moz-transition: all .8s ease-in-out;
+            -ms-transition: all .8s ease-in-out;
+            -o-transition: all .8s ease-in-out;
+    }
+    
+    .icons i:hover {
+        color: {color:Sidebar Icons Hover};
+    }
+    
+    .current_page {
+        color: {color:Accent};
+    }
+    
+    .autopagerize_page_element {
+        margin: 0;
+    }
+    
+    {CustomCSS}
+    
+</style>
+
+{block:IfInfiniteScroll}
+<script type="text/javascript" src="http://codysherman.com/tools/infinite-scrolling/code"></script>
+{/block:IfInfiniteScroll}
+
+</head>
+
+<body>
+
+<div id="container">
+<div class="autopagerize_page_element"></div>
+
+{block:Posts}
+<div class="posts">
+{block:Photo}
+{LinkOpenTag}
+{block:if500pxposts}<img src="{PhotoURL-500}" />{/block:if500pxposts}
+{block:if400pxposts}<img src="{PhotoURL-400}" />{/block:if400pxposts}
+{block:if250pxposts}<img src="{PhotoURL-250}" />{/block:if250pxposts}
+{LinkCloseTag}
+{block:Caption}<div class="postbg" style="margin-top:10px;"><div class="text">{Caption}</div></div>{/block:Caption}
+{/block:Photo}
+
+{block:Photoset}
+{block:if500pxposts}{Photoset-500}{/block:if500pxposts}
+{block:if400pxposts}{Photoset-400}{/block:if400pxposts}
+{block:if250pxposts}{Photoset-250}{/block:if250pxposts}
+{block:Caption}<div class="postbg" style="margin-top:10px;"><div class="text">{Caption}</div></div>{/block:Caption}
+{/block:Photoset}
+
+{block:Video}
+{block:if500pxposts}{Video-500}{/block:if500pxposts}
+{block:if400pxposts}{Video-400}{/block:if400pxposts}
+{block:if250pxposts}{Video-250}{/block:if250pxposts}
+{block:Caption}<div class="postbg" style="margin-top:10px;"><div class="text">{Caption}</div></div>{/block:Caption}
+{/block:Video}
+
+{block:Audio}
+<div class="postbg">
+<div class="playbox"><div class="play">{block:AudioPlayer}{AudioPlayer}{/block:AudioPlayer}</div></div>
+{block:AlbumArt}
+<img src="{AlbumArtURL}" class="cover">
+{/block:AlbumArt}
+<div class="playinfo">
+    <div class="text">
+        <b>Track:</b> {block:TrackName}{TrackName}{/block:TrackName}	
+        <hr class="postbg">
+        <b>Artist:</b> {block:Artist}{Artist}{/block:Artist}
+        <hr class="postbg">
+        <b>Album:</b> {block:Album}{Album}{/block:Album}
+        {block:IfPlayCount}<hr class="postbg">
+        <b>Play Count:</b> {PlayCount}{/block:IfPlayCount}
+    </div>
+</div>
+</div>
+{block:Caption}<div class="postbg" style="margin-top:10px;">
+<div class="text">{Caption}</div></div>{/block:Caption}
+{/block:Audio}
+
+{block:Quote}<div class="postbg">
+<div class="ttle" style="text-align:center;">{Quote}</div><hr class="postbg">
+{block:Source}<div class="text" style="text-align:right;">- {Source}</div>{/block:Source}</div>
+{/block:Quote}
+
+{block:Text}
+<div class="postbg">
+{block:Title}<div class="ttle">{Title}</div><hr class="postbg">{/block:Title}
+<div class="text">{Body}</div></div>
+{/block:Text}
+
+{block:Chat}
+<div class="postbg">
+{block:Title}<div class="ttle">{Title}</div><hr class="postbg">{/block:Title}
+{block:Lines}
+<div class="text">{block:Label}<strong>{Label}</strong>{/block:Label} {Line}</div><hr class="postbg">
+{/block:Lines}</div>
+{/block:Chat}
+    
+{block:Link}
+<div class="postbg">
+<div class="ttle" style="text-align:left;">⇒ <a href="{URL}">{Name}</a></div>
+{block:Description}<hr class="postbg"><div class="text">{Description}</div>{/block:Description}
+</div>
+{/block:Link}
+
+{block:Answer}
+<div class="postbg">
+<img src="{AskerPortraitURL-128}" class="mask">
+<div class="questionnaire"><div class="sender"><b>{Asker} asked:</b></div><div class="mailbox">{Question}</div></div>
+</div>
+<div class="postbg" style="margin-top:10px; padding:5px 15px;"><div class="text">{Answer}</div></div>
+{/block:Answer}
+
+{block:Date}
+<div class="postinfo">
+    Posted on <a href="{Permalink}">{block:Date}{Month} {DayofMonth}, {Year}{/block:Date}</a>
+    <div class="notes">{block:NoteCount}<a href="{Permalink}">{NoteCountWithLabel}</a>{/block:NoteCount}</div>
+    {block:HasTags}<div id="tags">
+        {block:Tags}
+        #<a href="{TagURL}">{Tag} </a>
+        {/block:Tags}
+    </div>
+    {/block:HasTags}
+</div>
+{/block:Date}
+    
+{block:ContentSource}
+<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
+width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
+{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
+ 
+<!--{block:NoRebloggedFrom}{block:RebloggedFrom}{ReblogParentName}{/block:RebloggedFrom}{/block:NoRebloggedFrom}-->
+    
+{block:PostNotes}<div class="pncont">{PostNotes-16}</div>{/block:PostNotes}
+    
+</div>
+{/block:Posts}
+
+{block:ifnotsidebarpagination}{block:IfNotInfiniteScroll}
+<div id="error"><div id="zero">
+    {block:Pagination}{block:PreviousPage}
+        <a href="{PreviousPage}">PREVIOUS</a>
+    {/block:PreviousPage}
+{block:JumpPagination length="5"}
+    {block:CurrentPage}
+        <span class="current_page">{PageNumber}</span>
+    {/block:CurrentPage}
+    {block:JumpPage}
+        <a class="jump_page" href="{URL}">{PageNumber}</a>
+    {/block:JumpPage}{/block:JumpPagination}
+    {block:NextPage}
+        <a href="{NextPage}">NEXT</a>
+    {/block:NextPage}{/block:Pagination}
+</div></div>
+{/block:IfNotInfiniteScroll}{/block:ifnotsidebarpagination}
+
+</div>
+
+
+<div id="sidebar1">
+    <div id="milk">
+        {block:ifLSBMusic}<div id="music"><div id="top"><div id="billy">{text:Music Player Code}</div></div><img src="http://www.xtyou.com/countpage/cc_icon.gif"></div>{/block:ifLSBMusic}
+        
+        {block:ifsidebarpagination}{block:PreviousPage}<a href="{PreviousPage}" title="PREVIOUS">{/block:PreviousPage}{/block:ifsidebarpagination}
+  
+        {block:ifLSBLink}<a href="{text:LSB Link URL}" title="{text:LSB Link Title}">{/block:ifLSBLink}
+            
+            <img src="{image:Left Sidebar Image}">
+            
+        {block:ifLSBLink}</a>{/block:ifLSBLink}{block:ifsidebarpagination}</a>{/block:ifsidebarpagination}
+    </div>
+    
+    <div class="title">{text:Title}</div>
+    <hr class="sidebar1">
+    <div id="description">
+        {Description}
+    </div>
+
+</div>
+
+<div id="sidebar2">
+    <div id="cookies">
+        {block:ifRSBMusic}<div id="music"><div id="top"><div id="billy">{text:Music Player Code}</div></div><img src="http://www.xtyou.com/countpage/cc_icon.gif"></div>{/block:ifRSBMusic}
+    
+        {block:ifsidebarpagination}{block:NextPage}<a href="{NextPage}" title="FORWARD">{/block:NextPage}{/block:ifsidebarpagination}
+        {block:ifRSBLink}<a href="{text:RSB Link URL}" title="{text:RSB Link Title}">{/block:ifRSBLink}
+        
+            <img src="{image:Right Sidebar Image}">
+        
+        {block:ifRSBLink}</a>{/block:ifRSBLink}{block:ifsidebarpagination}</a>{/block:ifsidebarpagination}
+    </div>
+    
+    
+    <div class="title">
+    <div class="icons">
+        <a href="/" title="home"><i class="fa fa-home" style="font-size:24px;"></i></a>
+        <a href="/ask" title="ask"><i class="fa fa-envelope"></i></a>
+        <a href="/archive" title="archive"><i class="fa fa-folder-open"></i></a>
+        <a href="http://undeadmagikarp.tumblr.com/" title="theme credit"><i class="fa fa-heart"></i></a>
+   </div></div>
+    <hr class="sidebar2">
+    <div id="linkbox">
+        <a href="{text:link 1 url}">{text:link 1}</a>
+        <hr class="linkbox">
+        <a href="{text:link 2 url}">{text:link 2}</a>
+        <hr class="linkbox">
+        <a href="{text:link 3 url}">{text:link 3}</a>
+        <hr class="linkbox">
+        <a href="{text:link 4 url}">{text:link 4}</a>
+        <hr class="linkbox">
+        <a href="{text:link 5 url}">{text:link 5}</a>
+        <hr class="linkbox">
+        <a href="{text:link 6 url}">{text:link 6}</a>
+    </div>
+    
+</div>
+
+</body>
+
+</html>
