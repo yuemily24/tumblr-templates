@@ -5,7 +5,8 @@ Note: Tumblr will display a "Request denied" text for certain scripts unless you
 
 ## Highlighted Templates
 ### String (blog theme)
-_Minimalist blog theme with animated, post-responsive borders and infinite scroll._\
+_Minimalist blog theme with animated, post-responsive borders and infinite scroll._
+
 **Features:** 20+ colour options, 3 custom links, customizable scroll-to-top button, 4 body font options, 4 header font options.\
 **Options:** Hide captions, infinite scroll or regular pagination, different-sized posts, like and reblog buttons, play count, bolded questions in ask posts, hide post source link.
 
@@ -14,7 +15,8 @@ _Minimalist blog theme with animated, post-responsive borders and infinite scrol
 [Preview Link](http://kkaepsongpreviews.tumblr.com/string)
 
 ### The Sweet Insomniac Project (blog theme)
-_Three-part blog theme beginning with a landing page, then a post section, and finally an optional built-in ask page._\
+_Three-part blog theme beginning with a landing page, then a post section, and finally an optional built-in ask page._
+
 **Features:** 20+ colour options, 2 custom links, smooth scrolling, 3 different background options (solid, repeating, 3-piece), custom cursor.\
 **Options:** Monochrome posts, hide captions, different-sized posts, reveal built-in ask page.
 
