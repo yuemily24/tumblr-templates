@@ -23,7 +23,7 @@ _Three-part blog theme beginning with a landing page, then a post section, and f
 [Preview Link](https://kkaepsongpreviews.tumblr.com/thesweetinsomniacproject-day)
 
 ### Infinity (page theme)
-Two-in-one FAQ page with built-in ask box.  
+_Two-in-one FAQ page with built-in ask box._
 
 **Features:** Background and link colour options, custom links in footer.
 
